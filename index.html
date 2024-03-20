@@ -63,7 +63,7 @@
                   <a class="header__link link4" href="#work">Works</a>
                 </li>
                 <li>
-                  <a class="header__link link4" href="#order">Order</a>
+                  <a class="header__link link4" href="#call">Сall us</a>
                 </li>
                 <li>
                   <a class="header__link link4" href="#services">Services</a>
@@ -373,32 +373,53 @@
           </button>
         </div>
 
-        <div id="order" class="form">
-          <form class="form-wapper">
+        <div id="call" class="gallery__text">
+          <h3 class="gallery__title2">Installations</h3>
+         <p class="gallery__text2">In today’s busy world time is valuable, so let our licensed, authorized 
+          professionals complete your installation or assembly giving you back your 
+          time and giving you piece of mind. We will call to schedule a time convenient 
+          for you, come to your home and complete the professional installation or assembly, 
+          and we can even look after the environmental disposal of your old appliances too.</p>
+
+          <h4 class="gallery__title3">Appliance installation</h4>
+          <p class="gallery__text3">Trans Global Service will install all appliances in your home. 
+            We install both gas and electric appliances, new installations, or we can 
+            remove and replace. We offer delivery and haul away service on some items,
+             as well as estimates on customer work. Our installers are bonded and 
+             professional and are the expert you need to get the job done right. 
+             Backed by a 1 year warranty against workmanship on your install, 
+             we have you covered.</p>
+
+             <a class="gallery__tel" href="tel:+14379927217"
+             >+1 (437) 992-72-17</a>
+
+        </div>
+
+        <!-- <div id="order" class="form2">
+          <form class="form form-wapper">
             <fieldset>
               <legend>Free consultation</legend>
 
-              <!-- <h1 class="form__title">Sign up with us online</h1> -->
-
               <label class="form-label"
                 >name
-                <input class="form-input" type="name" />
+                <input class="form-input" name="name" type="name" />
               </label>
 
               <label class="form-label"
                 >lastname
-                <input class="form-input" type="text" />
+                <input class="form-input" name="text" type="text" />
               </label>
 
               <label class="form-label"
                 >email
-                <input class="form-input" type="email" />
+                <input class="form-input" name="email" type="email" />
               </label>
             </fieldset>
+            <div id="success2" class="form__message2" style="display: none"></div>
 
             <button class="form-btn" type="submit">Send</button>
           </form>
-        </div>
+        </div> -->
         <h2 id="services" class="accordion__title3">
           Appliance Health Check
         </h2>
@@ -551,7 +572,7 @@
             <li><a href="#home">About</a></li>
             <li><a href="#guarantee">Guarantee</a></li>
             <li><a href="#work">Works</a></li>
-            <li><a href="#order">Order</a></li>
+            <li><a href="#call">Call us</a></li>
             <li><a href="#services">Services</a></li>
           </ul>
         </div>
@@ -595,7 +616,7 @@
           ></use>
         </svg>
       </button>
-      <form class="form-2 js-form-data">
+      <form id="form" class="form-2 js-form-data">
         <h2 class="form-title-2">Consultation</h2>
 
         <div class="form-div" role="group">
@@ -642,12 +663,14 @@
             class="form-date-2 js__input-date"
             type="datetime-local"
             name="date"
+            id="date"
             min="2024-01-01T12:30"
             max="2024-12-31T23:59"
             placeholder="username@gmail.com"
             required
           />
         </div>
+        <div id="success" class="form__message" style="display: none"></div>
 
         <button class="form__bth-2 js-btn" type="submit">Submit</button>
       </form>
@@ -673,5 +696,10 @@
   <script type="module" src="./js/mobileMenu.js"></script>
   <script type="module" src="./js/gallery.js"></script>
   <script type="module" src="./js/accordion.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script type="module" src="./js/telegram.js"></script>
+  <!-- <script type="module" src="./js/telegram.js"></script> -->
+ 
 </body>
 </html>
