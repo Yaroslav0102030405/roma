@@ -1,0 +1,138 @@
+// section hero
+.hero {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: $accent-color;
+
+  @media screen and (max-width: $tablet) {
+    padding-top: 5px;
+    padding-bottom: 50px;
+  }
+}
+
+.hero__wapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: $tablet) {
+    flex-wrap: wrap;
+  }
+}
+
+.hero__right {
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero__title {
+  text-align: center;
+  margin-bottom: 80px;
+  max-width: 621px;
+  color: $title-color;
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 1.16;
+  // color: $accent-color;
+  // color: $white-color;
+  color: yellow;
+  // color: gold;
+
+  // width: 15ch;
+  // white-space: nowrap;
+  // overflow: hidden;
+  // border-right: 3px solid orange;
+
+  // animation:
+  //   animation-title 0.45s ease infinite,
+  //   printet-text 2s steps(15);
+
+  @media screen and (max-width: $tablet) {
+    font-size: 26px;
+    margin-bottom: 24px;
+  }
+}
+
+// @keyframes animation-title {
+//   0% {
+//     border-color: orange;
+//   }
+//   50% {
+//     border-color: transparent;
+//   }
+//   100% {
+//     border-color: orange;
+//   }
+// }
+
+// @keyframes printet-text {
+//   from {
+//     width: 0;
+//   }
+// }
+
+// .sec-text {
+//   margin-left: 10px;
+//   color: #ff6666;
+// }
+
+.hero__text {
+  text-align: center;
+  margin-bottom: 80px;
+  max-width: 600px;
+  color: $text-color;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.42;
+  letter-spacing: 0.38px;
+
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 10px;
+    max-width: 360px;
+  }
+}
+
+.hero__image {
+  border-radius: 20px;
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    width: 350px;
+  }
+}
+
+.hero__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  // color: $white-color;
+  // color: $accent-color;
+  color: $white-color;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: inherit;
+
+  border: none;
+  border-radius: 55px;
+  // background-color: $accent-color;
+  // background-color: $white-color;
+  background-color: $button-accent-color;
+  background-color: #ffbf00;
+
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 10px;
+  }
+}
+
+.hover--active {
+  // border: 1px solid $accent-color;
+  // color: $accent-color;
+  // color: $white-color;
+  // color: $accent-color;
+  color: $white-color;
+  // background-color: $white-color;
+  // background-color: yellow;
+  // background-color: $button-accent-color;
+  // background-color: $white-color;
+  background-color: $button-accent-color;
+}

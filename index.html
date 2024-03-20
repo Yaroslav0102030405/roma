@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Romalex</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header id="header" class="header">
+    <div class="container">
+      <div class="header__wapper">
+        <div class="header__left">
+          <a id="logo" class="header__logan" href="./index.html">Romalex</a>
+        </div>
+
+        <button type="button" class="menu-button js-open-modal">
+          <svg width="40" height="40" aria-label="Mobile menu switch">
+            <use
+              class="icon-open"
+              href="./image/sprite.svg#icon-open"
+            ></use>
+          </svg>
+        </button>
+
+        <div class="js-menu-backdrop">
+          <div class="mobile-content">
+            <button type="button" class="button__close js-close-modal">
+              <svg
+                width="40"
+                height="40"
+                aria-expanded="false"
+                aria-label="Mobile menu switch"
+              >
+                <use
+                  class="icon-close"
+                  href="./image/sprite.svg#icon-clouse"
+                ></use>
+              </svg>
+            </button>
+            <nav class="nav">
+              <ul class="header__right">
+                <li>
+                  <a class="header__link link1" href="#home">About</a>
+                </li>
+                <li>
+                  <a class="header__link link2" href="#guarantee"
+                    >Guarantee</a
+                  >
+                </li>
+                <li>
+                  <a class="header__link link4" href="#work">Works</a>
+                </li>
+                <li>
+                  <a class="header__link link4" href="#order">Order</a>
+                </li>
+                <li>
+                  <a class="header__link link4" href="#services">Services</a>
+                </li>
+                <li>
+                  <a class="header__tel" href="tel:+14379927217"
+                    >+1 (437) 992-72-17</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero__wapper">
+          <div class="hero__left">
+            <h1 class="hero__title">
+              Appliance Installation in Toronto
+              <span class="sec-text"></span>
+            </h1>
+            <p class="hero__text">
+              Our company is engaged in the installation of household
+              appliances in Toronto. We have more than 27 services
+            </p>
+            <button class="hero__button js-hover" data-action="open-modal">
+              free consultation
+            </button>
+          </div>
+
+          <div class="hero__right">
+            <img
+              loading="lazy"
+              width="577"
+              height="392"
+              class="hero__image"
+              src="./image/hero-image2.png"
+              alt="doctor"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="guarantee" class="service">
+      <div class="container">
+        <a href="#header" aria-label="Arrow">
+          <div id="arrow" class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+        <div class="wapper">
+          <h2 class="service__title">By choosing us you will receive</h2>
+        </div>
+        <!-- <p class="service__text">By choosing us you will receive</p> -->
+        <ul class="service__list">
+          <li class="service__item">
+            <img
+              data-aos="zoom-in"
+              class="service__image"
+              width="120"
+              src="./image/guarantee1.png"
+              alt="quarantee"
+            />
+            <h3>Guarantee</h3>
+            <p class="service__item-extratex">
+              You receive an official guarantee from the selected master.
+            </p>
+          </li>
+          <li class="service__item">
+            <img
+              data-aos="zoom-in"
+              class="service__image"
+              width="120"
+              src="./image/qualified2.png"
+              alt="qualified"
+            />
+            <h3>Qualified</h3>
+            <p class="service__item-extratex">
+              Here you will find masters of the highest category.
+            </p>
+          </li>
+          <li class="service__item">
+            <img
+              data-aos="zoom-in"
+              class="service__image"
+              width="120"
+              src="./image/cfdfdfd3.png"
+              alt="consultation"
+            />
+            <h3>Consultations</h3>
+            <p class="service__item-extratex">
+              Possibility of free consultation!
+            </p>
+          </li>
+          <li class="service__item">
+            <img
+              data-aos="zoom-in"
+              class="service__image"
+              width="120"
+              src="./image/price4.png"
+              alt="price"
+            />
+            <h3>Optimal price</h3>
+            <p class="service__item-extratex">
+              Working with us, you do not overpay
+            </p>
+          </li>
+          <li class="service__item">
+            <img
+              data-aos="zoom-in"
+              class="service__image"
+              width="120"
+              src="./image/support5.png"
+              alt="support"
+            />
+            <h3>Ongoing support</h3>
+            <p class="service__item-extratex">
+              We are always available to help you
+            </p>
+          </li>
+          <li class="service__item">
+            <img
+              data-aos="zoom-in"
+              class="service__image"
+              width="120"
+              src="./image/Visit 6.png"
+              alt="visit"
+            />
+            <h3>Visit of the master</h3>
+            <p class="service__item-extratex">
+              Craftsmen work throughout the city and surrounding areas
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- <section id="apps" class="apps">
+      <div class="container">
+        <div class="apps-wapper">
+          <div class="apps-top-left">
+            <img
+              loading="lazy"
+              width="617"
+              height="450"
+              class="top-img"
+              src="./src/image/1.jpg"
+              alt="Leading"
+            />
+          </div>
+          <div class="apps-top-right">
+            <h2>Leading healthcare providers</h2>
+            <p>
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone. To us, it’s not
+              just work. We take pride in the solutions we deliver
+            </p>
+            <a href="#" class="section__link">Learn more</a>
+          </div>
+        </div>
+
+        <div class="apps-wapper2">
+          <div class="apps-botton-left">
+            <h2>Download our Saviour Care mobile app</h2>
+            <p>
+              Our dedicated patient engagement app and web portal allow you to
+              access information instantaneously (no tedeous form, long calls,
+              or administrative hassle) and securely
+            </p>
+            <a href="#" class="section__link">Download</a>
+          </div>
+
+          <div class="apps-botton-right">
+            <img
+              loading="lazy"
+              width="657"
+              height="450"
+              class="apps-botton feed"
+              src="./src//image/apps-3-min.png"
+              alt="Leading"
+            />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="work" class="contacts">
+      <div class="container">
+        <!-- <div class="contacts-wapper">
+          <div class="contacts-left">
+            <img
+              loading="lazy"
+              width="576"
+              height="450"
+              class="contacts-image feed"
+              src="./src/image/contact-image-min.png"
+              alt="doctor"
+            />
+          </div>
+          <div class="contacts-right">
+            <h2>Find a Doctor near you</h2>
+            <p>
+              Our app and web portal allows you to find the doctor to your
+              nearest location.
+            </p>
+            <a class="section__link" href="#">Find now</a>
+          </div>
+        </div> -->
+
+        <!-- <button type="button" class="js-open-gallery">Open</button> -->
+        <h2 class="gallery__title">Our works</h2>
+        <ul class="gallery">
+          <li class="gallery__card">
+            <img
+              data-aos="zoom-in"
+              class="gallery__image"
+              src="./image/1.jpg"
+              width="350"
+              alt="doctor one"
+            />
+          </li>
+          <li class="gallery__card">
+            <img
+              data-aos="zoom-in"
+              class="gallery__image"
+              src="./image/2.jpg"
+              width="350"
+              alt="doctor two"
+            />
+          </li>
+          <li class="gallery__card">
+            <img
+              data-aos="zoom-in"
+              class="gallery__image"
+              src="./image/3.jpg"
+              width="350"
+              alt="doctor three"
+            />
+          </li>
+          <li class="gallery__card">
+            <img
+              data-aos="zoom-in"
+              class="gallery__image"
+              src="./image/4.jpg"
+              width="350"
+              alt="doctor four"
+            />
+          </li>
+          <li class="gallery__card">
+            <img
+              data-aos="zoom-in"
+              class="gallery__image"
+              src="./image/5.jpg"
+              width="350"
+              alt="doctor five"
+            />
+          </li>
+          <li class="gallery__card">
+            <img
+              data-aos="zoom-in"
+              class="gallery__image"
+              src="./image/6.jpg"
+              width="350"
+              alt="doctor six"
+            />
+          </li>
+        </ul>
+
+        <div class="slider hidden">
+          <div class="slider__container">
+            <button class="slider__btn slider__btn-left">Prev</button>
+            <button class="slider__btn slider__btn-right">Next</button>
+          </div>
+          <button class="slider__btn-close">CLOSE</button>
+        </div>
+
+        <div id="order" class="form">
+          <form class="form-wapper">
+            <fieldset>
+              <legend>Free consultation</legend>
+
+              <!-- <h1 class="form__title">Sign up with us online</h1> -->
+
+              <label class="form-label"
+                >name
+                <input class="form-input" type="name" />
+              </label>
+
+              <label class="form-label"
+                >lastname
+                <input class="form-input" type="text" />
+              </label>
+
+              <label class="form-label"
+                >email
+                <input class="form-input" type="email" />
+              </label>
+            </fieldset>
+
+            <button class="form-btn" type="submit">Send</button>
+          </form>
+        </div>
+        <h2 id="services" class="accordion__title3">
+          Appliance Health Check
+        </h2>
+        <div class="accordion__wapper">
+          <div class="accordion">
+            <div data-tab="tab-1" class="accordion__title">
+              <h3 class="accordion__title-1">Dishwasher</h3>
+              <span></span>
+            </div>
+            <div id="tab-1" class="accordion__content">
+              Inspect supply line condition <br />
+              Inspect drain hose condition <br />
+              Inspect ring clamp tightness <br />
+              Inspect ring clamp condition <br />
+              Inspect shut off valve condition <br />
+              Inspect beneath dishwasher for signs of water leak <br />
+              Inspect supply line connection to dishwasher <br />
+              Inspect for rodent activity <br />
+              Check electric line and strain relief <br />
+              Inspect interior tub condition <br />
+              Inspect and clean drain <br />
+              basket Inspect cutlery basket condition <br />
+              Inspect rack condition <br />
+              Run cycle with cleaning agent
+            </div>
+          </div>
+
+          <div class="accordion">
+            <div data-tab="tab-2" class="accordion__title">
+              <h3 class="accordion__title-1">Refrigerator</h3>
+              <span></span>
+            </div>
+            <div id="tab-2" class="accordion__content">
+              Inspect lighting condition <br />
+              Inspect air filter <br />
+              Inspect freezer for ice build up <br />
+              Inspect shelving condition <br />
+              Inspect crisper condition <br />
+              Inspect door seal condition and function <br />
+              Check temperature <br />
+              Inspect water filter <br />
+              Inspect ice maker <br />
+              Inspect water dispenser <br />
+              Inspect waterline condition <br />
+              Inspect water valve condition <br />
+              Check level on refrigerator <br />
+              Check and clean condenser coils <br />
+              Check and clean front grill
+            </div>
+          </div>
+
+          <div class="accordion">
+            <div data-tab="tab-3" class="accordion__title">
+              <h3 class="accordion__title-1">Range Hood</h3>
+              <span></span>
+            </div>
+            <div id="tab-3" class="accordion__content">
+              Inspect light bulb <br />
+              Inspect and clean filters <br />
+              Test blower operation <br />
+              Inspect exterior vent <br />
+              Inspect fan/blower condition <br />
+              Inspect venting connections <br />
+              Inspect damper operation
+            </div>
+          </div>
+
+          <div class="accordion">
+            <div data-tab="tab-4" class="accordion__title">
+              <h3 class="accordion__title-1">Range</h3>
+              <span></span>
+            </div>
+            <div id="tab-4" class="accordion__content">
+              Inspect all knobs/buttons for function <br />
+              Inspect burners for temperature control <br />
+              Inspect bake element for function and condition <br />
+              Inspect Bake element for function and condition <br />
+              Oven temperature check <br />
+              Inspect cavity enamel condition <br />
+              Inspect door seal condition and function <br />
+              Inspect anti tip bracket <br />
+              Inspect gas supply hose condition* <br />
+              Inspect pilot* <br />
+              Inspect condition of ignitors* <br />
+              *Gas fueled appliances only
+            </div>
+          </div>
+
+          <div class="accordion">
+            <div data-tab="tab-5" class="accordion__title">
+              <h3 class="accordion__title-1">Washing Machine</h3>
+              <span></span>
+            </div>
+            <div id="tab-5" class="accordion__content">
+              Inspect cold water shut off valve condition <br />
+              Inspect hot water shut off valve condition <br />
+              Inspect cold water supply hose condition <br />
+              Inspect hot water supply hose condition <br />
+              Inspect steam dryer water supply hose condition <br />
+              Inspect all hose connections for signs of leaks <br />
+              Inspect drain hose condition <br />
+              Inspect drain hose tie wrap condition <br />
+              Inspect boot for damage and mildew <br />
+              Clean boot with cleaning agent <br />
+              Inspect drum and interior condition <br />
+              Inspect coin trap <br />
+              Inspect soap dispenser <br />
+              Run cycle with cleaning agent <br />
+              Check level
+            </div>
+          </div>
+
+          <div class="accordion">
+            <div data-tab="tab-6" class="accordion__title">
+              <h3 class="accordion__title-1">Dryer</h3>
+              <span></span>
+            </div>
+            <div id="tab-6" class="accordion__content">
+              Inspect venting clamps <br />
+              Inspect venting condition <br />
+              Inspect lint screen <br />
+              Clean lint screen cavity <br />
+              Check level on dryer <br />
+              Inspect external vent outlet <br />
+              Inspect gas supply hose condition* <br />
+              Inspect pilot* <br />
+              *Gas fueled appliances only
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="footer-wapper">
+        <div class="footer-left">
+          <a class="footer__link" href="./index.html">Romalex</a>
+          <p class="footer__text">
+            Our company is engaged in the installation of household appliances
+            in Toronto. We have more than 27 services
+          </p>
+          <p class="footer__text2">&copy; 2024. All rights reserved</p>
+        </div>
+        <div class="footer-right">
+          <!-- <a href="#">Company</a> -->
+
+          <ul>
+            <li><a href="#home">About</a></li>
+            <li><a href="#guarantee">Guarantee</a></li>
+            <li><a href="#work">Works</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#services">Services</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- <div class="time-count">
+        <h2 class="time-count__title">До кінця акції залишилося</h2>
+        <div class="time-count__content">
+          <ul id="timer" class="time-couter__list1">
+            <li>
+              <span id="d" class="time-couter__separator"></span
+              ><span class="time-couter__dot">:</span>
+            </li>
+            <li>
+              <span id="h" class="time-couter__separator"></span
+              ><span class="time-couter__dot">:</span>
+            </li>
+            <li>
+              <span id="m" class="time-couter__separator"></span
+              ><span class="time-couter__dot">:</span>
+            </li>
+            <li><span id="s" class="time-couter__separator"></span></li>
+          </ul>
+
+          <ul id="timer2" class="time-couter__list2">
+            <li><span class="time-couter__days">днів</span></li>
+            <li><span class="time-couter__days">годин</span></li>
+            <li><span class="time-couter__days">хвилин</span></li>
+            <li><span class="time-couter__days">секунд</span></li>
+          </ul>
+        </div>
+      </div> -->
+    </div>
+  </footer>
+
+  <div class="backdrop-2 js-backdrop">
+    <div class="modal-2">
+      <button class="modal-btn-close" type="button" data-action="close-modal">
+        Close
+      </button>
+      <form class="form-2 js-form-data">
+        <h2 class="form-title-2">Consultation</h2>
+
+        <div class="form-div" role="group">
+          <label for="name" class="form__label-2">Name</label><br />
+          <input
+            class="form__input-2 js__input-name"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="username"
+            required
+          />
+        </div>
+
+        <div role="group">
+          <label for="tel" class="form__label-2">Number</label><br />
+          <input
+            class="form__input-2 js__input-tel"
+            type="tel"
+            name="tel"
+            id="tel"
+            style="color: rgb(170, 168, 164)"
+            placeholder="phone number"
+            required
+          />
+        </div>
+
+        <div role="group">
+          <label for="email" class="form__label-2">Email</label><br />
+          <input
+            class="form__input-2 js-input js__input-email"
+            type="email"
+            name="email"
+            id="email"
+            autocomplete="off"
+            placeholder="username@gmail.com"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="date" class="form__label-2">Date</label><br />
+          <input
+            class="form-date-2 js__input-date"
+            type="datetime-local"
+            name="date"
+            min="2024-01-01T12:30"
+            max="2024-12-31T23:59"
+            placeholder="username@gmail.com"
+            required
+          />
+        </div>
+
+        <button class="form__bth-2 js-btn" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- <section class="timer">
+    <div class="container"> -->
+
+  <!-- </div>
+  </section> -->
+
+  <!-- <script type="module" src="./src/js/main.js"></script> -->
+  <!-- <script src="./src/js/menu.js" type="module"></script> -->
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  <!-- <script>
+    AOS.init();
+  </script> -->
+  <script type="module" src="./js/arrow.js"></script>
+  <script type="module" src="./js/lazy-loading.js"></script>
+  <script type="module" src="./js/mouse.js"></script>
+  <script type="module" src="./js/modal.js"></script>
+  <script type="module" src="./js/mobileMenu.js"></script>
+  <script type="module" src="./js/gallery.js"></script>
+  <script type="module" src="./js/accordion.js"></script>
+</body>
+</html>

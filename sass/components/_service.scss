@@ -1,0 +1,181 @@
+.service {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  text-align: center;
+
+  background: #f3fbff;
+
+  @media screen and (max-width: $tablet) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.service__title {
+  display: inline-block;
+  margin-bottom: 80px;
+  color: $title-color;
+  // text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.24;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 30px;
+    margin-bottom: 36px;
+  }
+}
+
+.service__text {
+  display: inline-block;
+  // display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  // max-width: 767px;
+  color: $text-color;
+  text-align: center;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.42;
+  letter-spacing: 0.38px;
+
+  @media screen and (max-width: $tablet) {
+    letter-spacing: 0;
+    max-width: 310px;
+  }
+}
+
+.service__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 26px;
+}
+
+.service__item {
+  width: 250px;
+  padding: 47px 60px;
+  border-radius: 20px;
+  background: #fff;
+
+  /* drop shadow */
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+
+  @media screen and (max-width: $tablet) {
+    padding: 37px 40px;
+    width: 332px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    width: 356px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 362px;
+  }
+}
+
+.service__item svg {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 22px;
+}
+
+.service__item h3 {
+  margin-bottom: 1px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 2.33;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 18px;
+  }
+}
+
+.service__item-extratex {
+  margin-bottom: 0;
+  text-align: center;
+  max-width: 251px;
+
+  color: #7d7987;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.75;
+
+  // @media screen and (max-width: $tablet) {
+  //   font-size: 12px;
+  // }
+}
+
+.section__link {
+  display: inline-block;
+  margin-top: 70px;
+  padding: 20px 30px;
+  color: $accent-color;
+  background: #f3fbff;
+  font-size: 19px;
+  font-weight: 700;
+  // line-height: 3.15;
+  font-family: inherit;
+
+  border: none;
+  border-radius: 55px;
+  border: 1.4px solid #458ff6;
+  // background-color: $accent-color;
+  // cursor: url("../image/cursor-hand.png"), auto;
+  // @media screen and (max-width: $tablet) {
+  //   // font-size: 26px;
+  //   margin-bottom: 45px;
+  // }
+}
+
+.section__link:hover,
+.section__link:hover {
+  color: $white-color;
+  background-color: $button-accent-color;
+  border-color: $white-color;
+}
+
+// .wapper {
+//   display: flex;
+//   justify-content: center;
+// }
+
+// .service__title {
+//   width: 14ch;
+//   white-space: nowrap;
+//   overflow: hidden;
+//   border-right: 4px solid orange;
+//   // animation:
+//   //   animation-title 0.75s ease infinite,
+//   //   printet-text 2s steps(14);
+// }
+
+// @keyframes animation-title {
+//   0% {
+//     border-color: orange;
+//   }
+//   50% {
+//     border-color: transparent;
+//   }
+//   100% {
+//     border-color: orange;
+//   }
+// }
+
+// @keyframes printet-text {
+//   from {
+//     width: 0;
+//   }
+// }
+
+.service__image {
+  margin-left: auto;
+  margin-right: auto;
+}

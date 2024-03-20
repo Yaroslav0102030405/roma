@@ -1,0 +1,220 @@
+// footer
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  // background: linear-gradient(183deg, #6888c8 -8.57%, #5a98f2 82.96%);
+  background: $accent-color;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  @media screen and (max-width: $tablet) {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+}
+
+.footer-wapper {
+  @media screen and (max-width: $tablet) {
+    gap: 50px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 260px;
+    justify-content: space-between;
+  }
+}
+
+.footer-left {
+  @media screen and (max-width: $tablet) {
+    display: block;
+    text-align: center;
+  }
+}
+
+.footer__link {
+  margin-bottom: 20px;
+  color: $white-color;
+
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer__text {
+  margin-bottom: 30px;
+  max-width: 363px;
+  color: $white-color;
+
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.18px;
+
+  @media screen and (max-width: $tablet) {
+    max-width: 335px;
+  }
+}
+
+.footer__text2 {
+  margin-bottom: 20px;
+  color: $white-color;
+
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.footer-right a {
+  margin-bottom: 16px;
+  color: $white-color;
+
+  font-size: 20px;
+  font-weight: 700;
+  // line-height: 3;
+}
+
+.footer-right ul {
+  color: $white-color;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2.11;
+
+  @media screen and (max-width: $tablet) {
+    // display: block;
+    text-align: center;
+  }
+}
+
+// Таймер обратного отчета
+// .time-count {
+//   justify-content: center;
+
+//   max-width: 600px;
+//   // display: inline-block;
+//   text-align: center;
+//   padding: 20px;
+//   background: #fff;
+//   box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
+//   border-radius: 30px;
+
+//   @media screen and (max-width: $tablet) {
+//     margin: 0 auto;
+//     max-width: 250px;
+//   }
+
+//   @media screen and (min-width: $tablet) and (max-width: $desktop) {
+//     max-width: 350px;
+//   }
+// }
+
+// .time-count__title {
+//   @media screen and (max-width: $tablet) {
+//     margin-bottom: 24px;
+//   }
+
+//   @media screen and (min-width: $tablet) and (max-width: $desktop) {
+//     margin-bottom: 35px;
+//   }
+
+//   @media screen and (min-width: $desktop) {
+//     margin-bottom: 50px;
+//     font-size: 38px;
+//   }
+// }
+
+// .time-couter__list1 {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   color: #ff0000;
+//   font-size: 20px;
+//   // align-items: center;
+//   // justify-content: center;
+//   @media screen and (max-width: $tablet) {
+//     margin-bottom: 20px;
+//   }
+
+//   @media screen and (min-width: $tablet) and (max-width: $desktop) {
+//     margin-bottom: 30px;
+//   }
+
+//   @media screen and (min-width: $desktop) {
+//     margin-bottom: 40px;
+//   }
+// }
+
+// .time-couter__list2 {
+//   display: flex;
+//   // justify-content: center;
+//   justify-content: space-between;
+// }
+
+// .time-couter__separator {
+//   color: #fff;
+//   background-color: $accent-color;
+
+//   @media screen and (max-width: $tablet) {
+//     padding: 5px;
+//     border-radius: 7px;
+//     margin: 0 12px;
+//     min-width: 23px;
+//     font-size: 23px;
+//   }
+
+//   @media screen and (min-width: $tablet) and (max-width: $desktop) {
+//     padding: 10px;
+//     border-radius: 10px;
+//     margin: 0 16px;
+//     min-width: 31px;
+//     font-size: 31px;
+//   }
+
+//   @media screen and (min-width: $desktop) {
+//     padding: 10px;
+//     border-radius: 10px;
+//     margin: 0 31px;
+//     min-width: 51px;
+//     font-size: 51px;
+//   }
+// }
+
+// .time-couter__dot {
+//   color: $accent-color;
+//   @media screen and (max-width: $tablet) {
+//     font-size: 20px;
+//   }
+
+//   @media screen and (min-width: $tablet) and (max-width: $desktop) {
+//     font-size: 30px;
+//     gap: 17px;
+//   }
+
+//   @media screen and (min-width: $desktop) {
+//     font-size: 50px;
+//     gap: 17px;
+//   }
+// }
+
+// .time-couter__days {
+//   color: #a8a8a8;
+//   @media screen and (max-width: $tablet) {
+//     margin: 0 5px;
+//     font-size: 16px;
+//   }
+
+//   @media screen and (min-width: $tablet) and (max-width: $desktop) {
+//     // justify-content: space-between;
+//     // margin: 0 5px;
+//     font-size: 24px;
+//   }
+
+//   @media screen and (min-width: $desktop) {
+//     margin: 0 27px;
+//     font-size: 30px;
+//   }
+// }

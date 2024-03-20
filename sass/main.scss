@@ -1,0 +1,24 @@
+@import './fonts';
+
+@import './base';
+@import './scrollbar';
+@import './utils';
+@import './variables';
+
+@import './components/animation/lazy-images';
+@import './components/animation/smooth-arrow';
+
+@import './components/header';
+@import './components/hero';
+@import './components/service';
+
+@import './components/contacts';
+@import './components/gallery/gallery';
+@import './components/apps';
+@import './components/accordion/accordion';
+
+@import './components/form/form';
+
+@import './components/footer';
+
+@import './components/mobile-menu/menu-button';

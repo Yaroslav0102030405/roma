@@ -1,0 +1,161 @@
+// apps
+.apps {
+  // background: linear-gradient(
+  //   90deg,
+  //   rgba(17, 141, 210, 1) 0%,
+  //   rgba(196, 0, 255, 1) 87%
+  // );
+
+  background: linear-gradient(
+    90deg,
+    rgba(17, 160, 210, 1) 11%,
+    rgba(196, 0, 255, 1) 92%
+  );
+  padding-top: 155px;
+  padding-bottom: 155px;
+
+  @media screen and (max-width: $desktop) {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+
+.apps-wapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 150px;
+
+  @media screen and (max-width: $tablet) {
+    flex-direction: column;
+    padding-bottom: 70px;
+  }
+}
+
+.apps-top-left img {
+  max-width: 617px;
+  // max-height: 491px;
+
+  @media screen and (max-width: $tablet) {
+    max-width: 209px;
+  }
+}
+
+.apps-top-right h2 {
+  margin-bottom: 59px;
+  // max-width: 467px;
+  color: $title-color;
+
+  font-size: 36px;
+  // font-weight: 700;
+  line-height: 1.55;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 29px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    font-size: 28px;
+  }
+}
+
+.apps-top-right p {
+  margin-bottom: 36px;
+  // max-width: 409px;
+  color: $text-color;
+
+  font-size: 18px;
+  // font-weight: 300;
+  line-height: 1.66;
+
+  @media screen and (max-width: $desktop) {
+    font-size: 16px;
+    max-width: 338px;
+  }
+}
+
+.apps-top-right a {
+  margin-top: 0;
+}
+
+.apps-top-left img {
+  @media screen and (max-width: $tablet) {
+    max-width: 279px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    max-width: 500px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 617px;
+  }
+}
+
+.apps-wapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: $tablet) {
+    flex-direction: column;
+  }
+}
+
+.apps-botton-left h2 {
+  margin-bottom: 50px;
+  max-width: 594px;
+  color: $title-color;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 29px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    font-size: 20px;
+  }
+}
+
+.apps-botton-left p {
+  margin-bottom: 40px;
+  max-width: 381px;
+  color: $text-color;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.66;
+
+  @media screen and (max-width: $tablet) {
+    max-width: 338px;
+  }
+
+  @media screen and (max-width: $desktop) {
+    font-size: 16px;
+  }
+}
+
+.apps-botton-left a {
+  margin-top: 0;
+}
+
+.apps-botton-right img {
+  // max-width: 657.534px;
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    max-width: 500px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 657px;
+  }
+}
+
+.apps-botton-left > a {
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 60px;
+  }
+}

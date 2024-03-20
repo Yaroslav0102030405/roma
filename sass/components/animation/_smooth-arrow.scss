@@ -1,0 +1,88 @@
+//  Smooth Arrow Animation
+.arrow {
+  display: none;
+  // position: absolute;
+  position: fixed;
+  // overflow: hidden;
+  // top: 50%;
+  // left: 50%;
+  right: 50px;
+  bottom: 50px;
+  // transform: translate(-50%, -50%);
+  // transform: rotate(45deg);
+
+  cursor: url('../image/cursor-hand.png'), auto;
+  transition: 0.04s linear;
+
+  // @media screen and (max-width: $desktop) {
+  //   display: none;
+  // }
+}
+
+.arrow.active {
+  display: block;
+  // position: fixed;
+  // bottom: 50px;
+  // right: 50px;
+  // transition: 0.04s linear;
+}
+
+.arrow span {
+  display: block;
+  width: 1.5vw;
+  height: 1.5vw;
+  // border-top: 5px solid #ff6666;
+  // border-left: 5px solid $accent-color;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+
+  cursor: url('../image/cursor-hand.png'), auto;
+
+  @media screen and (max-width: $tablet) {
+    width: 4.5vw;
+    height: 4.5vw;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: $desktop) {
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+}
+
+.arrow span:nth-child(1) {
+  border-top: 5px solid #ff4040;
+  border-left: 5px solid #ff4040;
+}
+
+.arrow span:nth-child(2) {
+  border-top: 5px solid #ffd700;
+  border-left: 5px solid #ffd700;
+}
+
+.arrow span:nth-child(3) {
+  border-top: 5px solid $accent-color;
+  border-left: 5px solid $accent-color;
+}
+
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20%, -20%);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20%, -20%);
+  }
+}
