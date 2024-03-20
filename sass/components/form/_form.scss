@@ -44,11 +44,11 @@ body.show-modal .modal-2 {
   transition: transform 200ms ease-in-out;
 
   @media screen and (max-width: $tablet) {
-    max-width: 235px;
+    max-width: 278px;
   }
 
   @media screen and (min-width: $tablet) and (max-width: $desktop) {
-    max-width: 330px;
+    max-width: 380px;
   }
 }
 
