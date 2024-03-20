@@ -1,6 +1,6 @@
 .service {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 64px;
+  padding-bottom: 60px;
 
   text-align: center;
 
@@ -14,7 +14,7 @@
 
 .service__title {
   display: inline-block;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   color: $title-color;
   // text-align: center;
   font-size: 45px;
@@ -81,14 +81,16 @@
 }
 
 .service__item svg {
-  width: 90px;
-  height: 90px;
+  width: 110px;
+  height: 110px;
   margin-bottom: 22px;
 }
 
 .service__item h3 {
   margin-bottom: 1px;
-  color: #000;
+  // color: #000;
+  color: $accent-color;
+  // color: $text-color;
   font-size: 24px;
   font-weight: 700;
   line-height: 2.33;
@@ -175,7 +177,7 @@
 //   }
 // }
 
-.service__image {
-  margin-left: auto;
-  margin-right: auto;
-}
+// .service__image {
+//   margin-left: auto;
+//   margin-right: auto;
+// }

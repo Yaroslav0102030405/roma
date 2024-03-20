@@ -27,8 +27,8 @@
 
 .hero__title {
   text-align: center;
-  margin-bottom: 80px;
-  max-width: 621px;
+  margin-bottom: 20px;
+
   color: $title-color;
   font-size: 53px;
   font-weight: 700;
@@ -47,9 +47,20 @@
   //   animation-title 0.45s ease infinite,
   //   printet-text 2s steps(15);
 
-  @media screen and (max-width: $tablet) {
-    font-size: 26px;
-    margin-bottom: 24px;
+  @media screen and (min-width: $mobile) and (min-width: $tablet) {
+    max-width: 431px;
+    font-size: 36px;
+  }
+
+  // @media screen and (max-width: $tablet) {
+  //   font-size: 26px;
+  //   margin-bottom: 24px;
+  // }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 621px;
+    margin-bottom: 80px;
+    font-size: 56px;
   }
 }
 
@@ -78,17 +89,29 @@
 
 .hero__text {
   text-align: center;
-  margin-bottom: 80px;
-  max-width: 600px;
+
+  margin-bottom: 25px;
+
   color: $text-color;
   font-size: 19px;
   font-weight: 500;
   line-height: 1.42;
   letter-spacing: 0.38px;
 
-  @media screen and (max-width: $tablet) {
-    margin-bottom: 10px;
-    max-width: 360px;
+  @media screen and (min-width: $mobile) and (min-width: $tablet) {
+    max-width: 382px;
+    // font-size: 36px;
+  }
+
+  // @media screen and (max-width: $tablet) {
+
+  //   margin-bottom: 10px;
+  //   max-width: 360px;
+  // }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 600px;
+    margin-bottom: 80px;
   }
 }
 
