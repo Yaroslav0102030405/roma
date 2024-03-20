@@ -58,6 +58,11 @@ body.modal-open {
 }
 
 .modal-btn-close {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  fill: black;
   display: block;
   // margin-right: auto;
   margin-left: auto;
@@ -67,10 +72,20 @@ body.modal-open {
   cursor: url('../image/cursor-hand.png'), auto;
 }
 
+// .modal__svg {
+//   margin: 0;
+//   padding: 0;
+//   border: none;
+//   background-color: inherit;
+//   fill: black;
+// }
+
 .modal-btn-close:hover,
 .modal-btn-close:focus {
-  color: $white-color;
-  background-color: $accent-color;
+  // color: $white-color;
+  // background-color: $accent-color;
+  // color: $accent-color;
+  fill: $accent-color;
 }
 
 .form-title-2 {
