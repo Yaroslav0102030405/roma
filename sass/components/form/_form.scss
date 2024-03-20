@@ -83,9 +83,11 @@ body.modal-open {
 .modal-btn-close:hover,
 .modal-btn-close:focus {
   // color: $white-color;
-  // background-color: $accent-color;
+  background-color: $accent-color;
   // color: $accent-color;
-  fill: $accent-color;
+  // fill: $accent-color;
+  border-radius: 50px;
+  fill: $white-color;
 }
 
 .form-title-2 {
@@ -93,7 +95,7 @@ body.modal-open {
   color: $title-color;
 
   text-align: center;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 700;
   line-height: 1.33;
 }
@@ -101,7 +103,7 @@ body.modal-open {
 .form__label-2 {
   color: $text-color;
 
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.58;
 
@@ -124,6 +126,7 @@ body.modal-open {
   // max-width: 500px;
   padding: 10px;
   border-radius: 4px;
+  border-radius: 10px;
 }
 
 .form__bth-2 {
@@ -138,7 +141,7 @@ body.modal-open {
   // border: 1.4px solid #fff;
   border: none;
 
-  border-radius: 24px;
+  border-radius: 18px;
   // background-color: aqua;
   // background: linear-gradient(208deg, #6888c8 9.05%, #5a98f2 76.74%);
   background-color: $accent-color;
