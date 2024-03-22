@@ -1,6 +1,6 @@
 // Получаэмо доступ до елементів
 const refs = {
-  openModalBtn: document.querySelector('[data-action="open-modal"]'),
+  // openModalBtn: document.querySelector('[data-action="open-modal"]'),
   closeModalBtn: document.querySelector('.close2'),
   backdrop: document.querySelector('.js-backdrop'),
   success: document.querySelector('.form__message'),
@@ -8,7 +8,7 @@ const refs = {
 };
 
 // на єлементі вішаємо прослушиваніе подій + функії
-refs.openModalBtn.addEventListener('click', onOpenModal);
+// refs.openModalBtn.addEventListener('click', onOpenModal);
 refs.closeModalBtn.addEventListener('click', onCloseModal);
 refs.backdrop.addEventListener('click', onBackdropClick);
 refs.closeModalBtn2.addEventListener('click', onClickModal3);
@@ -16,15 +16,13 @@ refs.closeModalBtn2.addEventListener('click', onClickModal3);
 function onClickModal3() {
   refs.success.style.display = 'none';
 }
-// refs.backdrop.addEventListener('click', closeModalBtn);
 
 // функція
-function onOpenModal() {
-  window.addEventListener('keydown', onEscKeyPress);
-  document.body.classList.add('show-modal');
-  document.body.classList.add('is-hidden');
-  // backdropJs.classList.add('is-open');
-}
+// function onOpenModal() {
+//   window.addEventListener('keydown', onEscKeyPress);
+//   document.body.classList.add('show-modal');
+//   document.body.classList.add('is-hidden');
+// }
 
 function onCloseModal() {
   window.removeEventListener('keydown', onEscKeyPress);
@@ -35,7 +33,6 @@ function onCloseModal() {
 function onBackdropClick(event) {
   if (event.currentTarget === event.target) {
     onCloseModal();
-    refs.success.style.display = 'none';
   }
 }
 
@@ -46,12 +43,8 @@ function onEscKeyPress(event) {
 }
 
 function onSuccess() {
-  // refs.backdrop.classList.add('is-open');
   refs.success.style.display = 'block';
-  // onBackdropClick();
 }
-
-// function onClouseModal2() {}
 
 const TOKEN = '6470796582:AAEzk1WSMbpsvtk_zU8M9E4AEclnoD5ovB8';
 const CHAT_ID = '-1002084469289';
@@ -86,7 +79,6 @@ document.getElementById('form').addEventListener('submit', function (e) {
       //   this.checkbox.value = '';
       onCloseModal();
       onSuccess();
-      onOpenModal();
       // onBackdropClick();
       // success.innerHTML =
       //   '<p class="message">Message sent!</p class="message2"><p>A manager will contact you in 15 minutes!</p>';
