@@ -10,6 +10,30 @@
   }
 }
 
+.social {
+  @media screen and (max-width: $tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 20px;
+  }
+
+  .social__item a {
+    border-radius: 50%;
+    background-color: #ff6666;
+    // width: 44px;
+    // height: 44px;
+    padding: 10px;
+    border: none;
+    // border: 1px solid #fff;
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+}
+
 .header__wapper {
   display: flex;
   align-items: center;
