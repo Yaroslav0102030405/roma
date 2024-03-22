@@ -15,7 +15,9 @@
 
 .footer-wapper {
   @media screen and (max-width: $tablet) {
-    gap: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
   }
 
   @media screen and (min-width: $tablet) {
@@ -61,7 +63,8 @@
 
 .footer__text2 {
   margin-bottom: 20px;
-  color: $white-color;
+  // color: $white-color;
+  color: $text-color;
 
   font-size: 16px;
   font-weight: 300;
