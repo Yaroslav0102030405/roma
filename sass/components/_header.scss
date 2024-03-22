@@ -21,12 +21,17 @@
 
   .social__item a {
     border-radius: 50%;
-    background-color: #ff6666;
+    // background-color: #ff6666;
     // width: 44px;
     // height: 44px;
     padding: 10px;
     border: none;
     // border: 1px solid #fff;
+  }
+
+  .social__item a:focus,
+  .social__item a:hover {
+    background-color: $button-accent-color;
   }
 
   @media screen and (min-width: $tablet) {
