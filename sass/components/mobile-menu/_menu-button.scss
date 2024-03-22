@@ -47,7 +47,7 @@
 .mobile-content {
   @media screen and (max-width: $tablet) {
     height: 100%;
-    width: 66%;
+    width: 80%;
     background-color: $accent-color;
     transform: translateX(-100%);
     // transition: transform 0.45s linear;
