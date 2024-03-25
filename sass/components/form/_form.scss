@@ -174,7 +174,7 @@ body.modal-open {
 }
 
 .form__message {
-  margin-top: 20px;
+  // margin-top: 20px;
   padding: 10px;
   text-align: center;
   font-family: inherit;
@@ -185,6 +185,7 @@ body.modal-open {
 }
 
 .form__message p {
+  max-width: 242px;
   margin-bottom: 20px;
   font-size: 20px;
 }
@@ -221,7 +222,7 @@ body.modal-open {
   // transition-duration: 250ms;
   // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  max-width: 300px;
+  max-width: 256px;
   border-radius: 15px;
   // margin-top: 103px;
   transform: translate(-50%, -50%) scale(1);
@@ -244,6 +245,12 @@ body.modal-open {
 .close2:focus,
 .close2:hover {
   background-color: $white-color;
+}
+
+.image__message {
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 // .form__message2 {
