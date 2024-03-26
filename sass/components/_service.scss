@@ -88,6 +88,53 @@
   margin-bottom: 22px;
 }
 
+// .service__item svg:focus,
+// .service__item svg:hover {
+//   // fill: aqua;
+//   transform: scale(1.3);
+// }
+
+// .service__item:nth-child(1) {
+//   // fill: #458ff6;
+//   fill: gold;
+// }
+
+.service__item:focus:nth-child(1),
+.service__item:hover:nth-child(1) {
+  fill: #ffbf00;
+  // transform: scale(1.1);
+}
+.service__item:focus:nth-child(2),
+.service__item:hover:nth-child(2) {
+  fill: #ff00ff;
+  // transform: scale(1.1);
+}
+
+.service__item:focus:nth-child(3),
+.service__item:hover:nth-child(3) {
+  // fill: #ffbf00;
+  fill: #458ff6;
+  // transform: scale(1.1);
+}
+
+.service__item:focus:nth-child(4),
+.service__item:hover:nth-child(4) {
+  fill: #46ff36;
+  // transform: scale(1.1);
+}
+
+.service__item:focus:nth-child(5),
+.service__item:hover:nth-child(5) {
+  fill: red;
+  // transform: scale(1.1);
+}
+
+.service__item:focus:nth-child(6),
+.service__item:hover:nth-child(6) {
+  fill: darkorchid;
+  // transform: scale(1.1);
+}
+
 .service__item h3 {
   margin-bottom: 1px;
   // color: #000;

@@ -30,7 +30,8 @@
 
 .gallery__card:hover .gallery__image {
   transform: scale(1.1);
-  cursor: zoom-in;
+  // cursor: zoom-in;
+  cursor: url('../../../image/mouse.png'), auto;
 }
 
 .slider {
@@ -170,6 +171,8 @@
   font-size: 22px;
   text-align: center;
 
+  // cursor: url('../../../image/222.png'), auto;
+
   @media screen and (max-width: $tablet) {
     font-size: 19px;
   }
@@ -202,4 +205,6 @@
   color: $white-color;
   background-color: $button-accent-color;
   border-radius: 10px;
+
+  cursor: url('./../../../image/phone-call.png'), auto;
 }

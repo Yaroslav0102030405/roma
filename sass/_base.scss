@@ -25,7 +25,9 @@ body {
   // font-size: 16px;
   // font-weight: 400;
   // line-height: normal;
-  cursor: url('../image/cursor.png'), auto;
+  // cursor: url('../image/cursor.png'), auto;
+  cursor: url('../image/cursor12.png'), auto;
+  // cursor: url('../image/cursor12\(64\).png'), auto;
 }
 
 // hrml {
@@ -79,11 +81,13 @@ a {
   text-decoration: none;
   font-style: normal;
 
-  cursor: url('../image/cursor-hand.png'), auto;
+  // cursor: url('../image/cursor-hand.png'), auto;
+  cursor: url('../image/up-sign.png'), auto;
 }
 
 button {
-  cursor: url('../image/cursor-hand.png'), auto;
+  // cursor: url('../image/cursor-hand.png'), auto;
+  cursor: url('../image/up-sign.png'), auto;
 }
 
 ul {

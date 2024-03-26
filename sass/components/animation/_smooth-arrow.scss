@@ -37,7 +37,8 @@
   margin: -10px;
   animation: animate 2s infinite;
 
-  cursor: url('../image/cursor-hand.png'), auto;
+  // cursor: url('../image/cursor-hand.png'), auto;
+  cursor: url('../image/up-sign.png'), auto;
 
   @media screen and (max-width: $tablet) {
     width: 4.5vw;
