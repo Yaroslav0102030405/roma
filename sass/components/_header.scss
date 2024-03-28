@@ -126,6 +126,26 @@
   }
 }
 
+// .header__tel:focus,
+// .header__tel:hover {
+//   height: 100px;
+// }
+
+// .header__tel2 {
+//   display: none;
+//   color: $white-color;
+//   padding: 10px;
+//   background-color: #ff6666;
+//   border-radius: 10px;
+//   font-size: 19px;
+//   cursor: url('../../image/phone-call.png'), auto;
+// }
+
+// .header__tel2:focus,
+// .header__tel2:hover {
+//   display: block;
+// }
+
 .header__tel:active {
   color: $accent-color;
   background-color: #fff;
