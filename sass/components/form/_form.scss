@@ -74,28 +74,15 @@ body.modal-open {
   cursor: url('../image/up-sign.png'), auto;
 }
 
-// .modal__svg {
-//   margin: 0;
-//   padding: 0;
-//   border: none;
-//   background-color: inherit;
-//   fill: black;
-// }
-
 .modal-btn-close:hover,
 .modal-btn-close:focus {
-  // color: $white-color;
   background-color: $accent-color;
-  // color: $accent-color;
-  // fill: $accent-color;
   border-radius: 50px;
   fill: $white-color;
 }
 
 .form-title-2 {
   margin-bottom: 10px;
-  // color: $title-color;
-  // color: $text-color;
   color: #747474;
 
   text-align: center;
@@ -104,67 +91,30 @@ body.modal-open {
   line-height: 1.33;
 }
 
-// .form__label-2 {
-//   color: $text-color;
-
-//   font-size: 20px;
-//   font-weight: 700;
-//   line-height: 1.58;
-
-//   cursor: url('../image/cursor-hand.png'), auto;
-// }
-
-// .form__input-2:placeholder-shown {
-//   border-color: blue;
-// }
-
 .form__input-2 {
   border: 1px solid #e4e4e4;
-  // background: #f5f5f5;
-  // border: 1px solid green;
-  // border: none;
   box-sizing: border-box;
-  // display: block;
   margin-bottom: 20px;
   width: 100%;
   height: 100%;
-  // max-width: 500px;
-  // padding: 10px;
-  // padding: 19px 22px;
   padding: 15px;
-  // border-radius: 4px;
   border-radius: 10px;
 }
 
 .form__bth-2 {
   width: 100%;
-  // margin-top: 20px;
   padding: 22px;
   color: $white-color;
   text-align: center;
   font-size: 18px;
   font-weight: 700;
-  // border-radius: 55px;
-  // border: 1.4px solid #fff;
   border: none;
 
   border-radius: 18px;
-  // background-color: aqua;
-  // background: linear-gradient(208deg, #6888c8 9.05%, #5a98f2 76.74%);
   background-color: $accent-color;
 
-  // cursor: url('../image/cursor-hand.png'), auto;
   cursor: url('../image/up-sign.png'), auto;
 }
-
-// .form__btn-2:hover,
-// .form__btn-2:focus {
-//   background: #ff6666;
-// }
-
-// .form-div {
-//   display: inline-block;
-// }
 
 .form__bth-2:disabled {
   background-color: lightgray;
@@ -177,7 +127,7 @@ body.modal-open {
 
 .form__message {
   // margin-top: 20px;
-  padding: 10px;
+  // padding: 10px;
   text-align: center;
   font-family: inherit;
   // color: aqua;
@@ -200,35 +150,41 @@ body.modal-open {
 }
 
 .form__message {
-  display: none;
+  // display: none;
   // display: block;
   /* поставить по центру */
-  position: absolute;
+  // position: absolute;
+  // position: fixed;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  // top: 0;
+  // left: 0;
+  // width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  // width: 100vw;
+  // height: 100vh;
+  // background-color: rgba(0, 0, 0, 0.3);
+  // z-index: 999;
 
   padding: 30px;
-
-  // background: $white-color;
-  // box-shadow:
-  //   0px 1px 3px rgba(0, 0, 0, 0.12),
-  //   0px 1px 1px rgba(0, 0, 0, 0.14),
-  //   0px 2px 1px rgba(0, 0, 0, 0.2);
-  // border-radius: 4px;
-  // z-index: 101;
-  // overflow: scroll;
 
   // transition-property: opacity;
   // transition-duration: 250ms;
   // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  max-width: 256px;
+  // max-width: 256px;
+  width: 270px;
   border-radius: 15px;
   // margin-top: 103px;
-  transform: translate(-50%, -50%) scale(1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  // transform: translate(-50%, -50%) scale(1);
+  // transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close2 {
@@ -254,31 +210,3 @@ body.modal-open {
   margin-right: auto;
   margin-left: auto;
 }
-
-// .form__message2 {
-//   margin-top: 20px;
-//   padding: 10px;
-//   text-align: center;
-//   font-family: inherit;
-//   // color: aqua;
-//   // background-color: black;
-//   background-color: #50c878;
-//   color: #f5f5f5;
-// }
-
-// .form__message2 p {
-//   margin-bottom: 10px;
-//   font-size: 20px;
-// }
-
-// .message {
-//   text-align: center;
-//   // background-color: green;
-//   color: aqua;
-// }
-
-// .message2 {
-//   text-align: center;
-//   // background-color: green;
-//   color: aqua;
-// }
